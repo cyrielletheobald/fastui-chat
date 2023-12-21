@@ -22,6 +22,7 @@ email-validator==2.1.0.post1
 fastapi==0.104.1
 fastui @ git+https://github.com/pydantic/FastUI.git@main#subdirectory=src/python-fastui
 frozenlist==1.4.1
+greenlet==3.0.2
 h11==0.14.0
 httpcore==1.0.2
 httpx==0.25.2

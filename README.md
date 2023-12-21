@@ -5,21 +5,22 @@ A minimalistic ChatBot Interface in pure python.
 ## How to use
 
 ```bash
-> git clone https://github.com/shroominic/fastui-chat.git && cd fastui-chat
-
 > ./dev-install.sh
-
-> startapp
 ```
 
-## TODO
+Si cette commande ne fonctionne pas, faire :
+```bash
+> echo 'export PATH="$HOME/.rye/shims:$PATH"' >> ~/.bashrc
+> source ~/.bashrc 
+> rye sync
+> rye shell
+```
 
-- [ ] Image IO (vision models)
-
-- [ ] Add model selection
-
-- [ ] Store previous chats
-
-- [ ] Use scrollview for chat
-
-- [ ] ... add more todos
+Puis,
+```bash
+> startapp
+```
+OU 
+```bash
+> python src/fastui_chat/app.py
+```

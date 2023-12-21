@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastui import prebuilt_html
 
-from .chat import router as chat_router
+from chat import router as chat_router
 
 app = FastAPI()
 app.include_router(chat_router, prefix="/api")

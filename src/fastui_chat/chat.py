@@ -8,8 +8,8 @@ from fastui.events import PageEvent
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ChatMessageHistory
 
-from .components import ChatInputForm, ChatMessage
-from .session import ChatSession, create_basic_chat_handler
+from components import ChatInputForm, ChatMessage
+from session import ChatSession, create_basic_chat_handler
 
 router = APIRouter()
 
