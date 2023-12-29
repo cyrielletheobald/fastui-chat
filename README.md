@@ -18,5 +18,6 @@ Si cette commande ne fonctionne pas, faire :
 
 Puis,
 ```bash
+> export OPENAI_API_KEY=valeur_de_la_cle_API
 > python src/fastui_chat/app.py
 ```
